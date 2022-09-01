@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluasi7</title>
+</head>
+<body>
+    <script>
+        var berapaNilaiMu = prompt("berapa nilai mu?");
+
+if(berapaNilaiMu > 80){
+    document.write("<h2>anda mendapatkan nilai A </h2>");
+}else if(berapaNilaiMu >65){
+    document.write("<h2>anda mendapat nilai B</h2>");
+}else if(berapaNilaiMu >45){
+    document.write("<h2>anda mendapat nilai C</h2>");
+}else if(berapaNilaiMu >40){
+    document.write("<h2>maaf anda tidak lulus</h2>");
+}
+        // syntax grade batas umur
+       
+        var umur = prompt("apa anda berumur 18 tahun? berapa umur mu?");
+        var keputusan = "";
+        
+        switch(umur){
+            case "18":
+                keputusan = "z";
+                break;
+                case "ya":
+                keputusan = "z";
+                break;
+                case "sudah":
+                keputusan = "z";
+                break;
+                case "19":
+                keputusan = "z";
+                break;
+                case "iya":
+                keputusan = "z";
+                break;
+            case "17":
+                keputusan = "";
+                break;
+        }
+
+        if(keputusan === ""){
+            document.write("<h1>Kamu tidak bisa masuk ke bioskop</h1>");
+        } else {
+            document.write("<h2>Selamat datang di bioskop" + keputusan + "</h2>");
+        }
+    </script>
+</body>
+</html>
